@@ -1,0 +1,48 @@
+# a=int(input("Enter the value"))
+# b=int(input("Enter the value"))
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a%b)
+
+
+# num=int(input("enter num value"))
+# if num%3==0:
+#         if num%7==0:
+#             print("The Value {}")
+# else:
+#     if num%11==0:
+#         print("the {} value")
+#     else:
+#         if num%2==0:
+#             if num%8==0:
+#                 if num%14==0:
+#                     print("The {} value is true")
+
+# month=['january','february','march','april','may','june','july','august','september','october','november','december']
+# day=['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+# z=[]
+# for i in month:
+#     for j in day:
+#         z.append([i,j])
+# print(z)
+
+
+x=[1,2,3,4,5,6,7,8,9]
+d={"e":[],"o":[]}
+for i in range(len(x)):
+    if(i%2==0):
+        d["e"].append(x[i])
+    else:
+        d["o"].append(x[i])
+print(d)
+
+
+
+    
+
+
+
+
+
